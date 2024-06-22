@@ -85,7 +85,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const db = require('./models');
-const itemRoutes = require('./routes/itemRoutes');
+const itemRoutes = require('./routes/itemRoutes.js');
 
 const app = express();
 
